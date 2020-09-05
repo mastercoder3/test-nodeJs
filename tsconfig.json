@@ -22,7 +22,9 @@
      "allowSyntheticDefaultImports": true,
      "emitDecoratorMetadata": true,
      "experimentalDecorators": true,
-     "skipLibCheck": true
+     "skipLibCheck": true,
+     "baseUrl": ".",
+     "rootDir": "src"
    },
    "exclude": ["node_modules"],
    "include": ["./src/**/*.tsx", "./src/**/*.ts"]
